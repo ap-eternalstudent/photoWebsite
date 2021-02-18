@@ -3,46 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FleXxBoxX</title>
+    <title>Real Estate Photographer</title>
+    <link rel="shortcut icon" href="./static/img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./static/style/style.css" />
+    
   </head>
   <body>
-    <div class="header">
-      <ul class="menu">
-        <li class="menu__item menu__logo">
-          <a href="#">AP PHOTOS</a>
-        </li>
-        <li class="menu__item"><a href="./index.html">Home</a></li>
-        <li class="menu__item"><a href="./services.html">Services</a></li>
-        <li class="menu__item"><a href="https:behance.com/antonspereloma">Portfolio</a></li>
-        <li class="menu__item"><a href="./contacts.html">Contacts</a></li>
-        <li class="menu__item"><a href="./about.html">About</a></li>
-      </ul>
-    </div>
+    <section class="header">
+        <img class="logo" src="./static/img/logo_m.png" alt="AP-logo">
+        <nav class="site-navigation">
+          <ul class="menu">
+            <li class="menu__item"><a href="./index.html">Home</a></li>
+            <li class="menu__item"><a href="./services.html">Services</a></li>
+            <li class="menu__item"><a href="https://behance.net/antonperel">Portfolio</a></li>
+            <li class="menu__item"><a href="./contacts.html">Contacts</a></li>
+            <li class="menu__item"><a href="./about.html">About</a></li>
+          </ul>
+      </nav>
+    </section>
     <section class="super-wrapper">
-    <section class="landing">
-        <div class="landing__intro">
-          <div class="landing__intro__title">
-            <h1>Professional Real Estate Photography</h1>
-            <h3>by Anton Perel</h3>
-          </div>
-          <div class="landing__intro__text">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem atque sint aliquid, ab enim voluptatum adipisci
-              delectus expedita quae similique laudantium, deleniti dolorum
-              nobis! Aliquid repellendus culpa delectus corrupti excepturi?
-            </p>
-          </div>
-          <section class="CTA">
-            <button>contacts</button>
+      <section class="landing">
+          <section class="landing__intro">
+            <section class="landing__intro__title">
+              <h1><span>Professional</span><span>Real Estate</span><span>Photography</span></h1>
+              <h3>by Anton Perel</h3>
+            </section>
+            <section class="landing__intro__text">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam ab ex neque doloribus, dolores illum iste fugit repellendus minima a recusandae libero rem ad aspernatur cupiditate error repellat ipsa quia.
+              </p>
+            </section>
           </section>
-        </div>
-      </section>
+          <section class="call-to-action">
+            <section class="button">
+              <button class="btn btn-1 btn-1a">contact me</button>
+            </section>
+          </section>
+        </section>
+
       <section class="packages">
         <section class="packages__item">
           <h3>Package 1</h3>
-          <section>
             <ul>
               <li>Up to 1,000 sq.ft.</li>
               <li>15 photos</li>
@@ -50,12 +51,10 @@
               <li>24 hour turnaround</li>
               <li>Options available upon request</li>
             </ul>
-            <p>Price: $XXX</p>
-          </section>
+            <p class="pricing">Price: $150</p>
         </section>
         <section class="packages__item">
           <h3>Package 2</h3>
-          <section>
             <ul>
               <li>Up to 2,500 sq.ft.</li>
               <li>25 photos</li>
@@ -63,24 +62,37 @@
               <li>24 hour turnaround</li>
               <li>Options available upon request</li>
             </ul>
-            <p>Price: $YYY</p>
-          </section>
+            <p class="pricing">Price: $250</p>
         </section>
         <section class="packages__item">
           <h3>Package 3</h3>
-          <section>
             <ul>
               <li>Up to 5,000 sq.ft.</li>
-              <li>15 photos</li>
+              <li>35 photos</li>
               <li>up to 3 hours on site</li>
               <li>48 hour turnaround</li>
               <li>Options available upon request</li>
             </ul>
-            <p>Price: $ZZZ</p>
-          </section>
+            <p class="pricing">Price: $350</p>
         </section>
+        <section class="packages__item">
+          <h3>Available Options</h3>
+          <ul>
+            <li>360 Views</li>
+            <li>Video Walkthrough</li>
+            <li>Day to Dusk Exterior</li>
+            <li>Twillight Exterior Shoots</li>
+          </ul>
+          <p class="pricing">Contact for pricing</p>
+        </section>
+        <!-- <section class="call-to-action">
+          <section class="button">
+            <button class="btn btn-1 btn-1a">contact me</button>
+          </section>
+        </section> -->
       </section>
       <section class="portfolio-container">
+        <h3>Previous Work</h3>
         <ul class="portfolio__images">
           <li class="portfolio__images__item">
             <img src="./static/img/1.jpg" alt="" />
@@ -125,7 +137,7 @@
           </ul>
         </section>
       </section>
-      <section>
+      <section class="copyright">
         <p>All Rights Reserved</p>
       </section>
     </section>
