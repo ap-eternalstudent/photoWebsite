@@ -10,8 +10,13 @@
   </head>
   <body>
     <section class="header">
-        <img class="logo" src="./static/img/logo_m.png" alt="AP-logo">
-        <nav class="site-navigation">
+      <nav class="site-navigation">
+          <img class="logo" src="./static/img/logo_m.png" alt="AP-logo">
+          <div class="menu__burger">
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
           <ul class="menu">
             <li class="menu__item"><a href="./index.html">Home</a></li>
             <li class="menu__item"><a href="./services.html">Services</a></li>
@@ -20,6 +25,7 @@
             <li class="menu__item"><a href="./about.html">About</a></li>
           </ul>
       </nav>
+
     </section>
     <section class="super-wrapper">
       <section class="landing">
@@ -42,6 +48,7 @@
         </section>
 
       <section class="packages">
+          <h3>My Packages</h3>
         <section class="packages__item">
           <h3>Package 1</h3>
             <ul>
@@ -85,11 +92,11 @@
           </ul>
           <p class="pricing">Contact for pricing</p>
         </section>
-        <!-- <section class="call-to-action">
+        <section class="call-to-action">
           <section class="button">
             <button class="btn btn-1 btn-1a">contact me</button>
           </section>
-        </section> -->
+        </section>
       </section>
       <section class="portfolio-container">
         <h3>Previous Work</h3>
@@ -123,24 +130,24 @@
       </section>
     </section>
     <section class="footer">
-      <section class="contacts">
-        <section class="contacts__primary">
+      <!-- <section class="contacts"> -->
+        <section class="contact__row">
           <ul>
-            <li>email:<a>https://apphotos.us</a></li>
-            <li>cellphone:<a>(904)-555-5555</a></li>
+            <li>email: <a>https://apphotos.us</a></li>
+            <li>cellphone: <a>(904)-555-5555</a></li>
           </ul>
         </section>
-        <section class="contacts__social">
+        <section class="contact__row">
           <ul>
             <li>behance</a></li>
             <li>instagram</a></li>
           </ul>
         </section>
+      <!-- </section> -->
+      <section class="contact__row">
+        <p>© All Rights Reserved 2020</p>
       </section>
-      <section class="copyright">
-        <p>All Rights Reserved</p>
-      </section>
-    </section>
+    </section> 
     <script src="./static/script/script.js"></script>
   </body>
 </html>
