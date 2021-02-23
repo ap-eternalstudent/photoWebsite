@@ -139,6 +139,7 @@ a::after {
 
 .call-to-action {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 6rem;
 }
@@ -181,6 +182,11 @@ a::after {
   color: black;
 }
 
+.btn-1a:hover,
+.btn-1a:active {
+  color: #fff;
+  background: black;
+}
 .btn-1a:hover,
 .btn-1a:active {
   color: #fff;
@@ -281,7 +287,7 @@ a::after {
   padding: 1rem;
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 999px) {
   body {
     overflow-x: hidden;
   }
@@ -328,28 +334,25 @@ a::after {
     margin-right: 0;
   }
 }
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   html {
     font-size: 50%;
   }
   body {
     max-width: 100%;
   }
-}
-
-@media (max-aspect-ratio: 1/1) {
-  .portfolio__images__item {
-    height: 30vh;
-  }
-}
-
-@media (max-height: 479px) {
   .portfolio__images__item {
     height: 80vh;
   }
 }
 
-@media (max-aspect-ratio: 1/1) and (max-width: 479px) {
+@media screen and (max-aspect-ratio: 1/1) {
+  .portfolio__images__item {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-aspect-ratio: 1/1) and (max-width: 479px) {
   .portfolio__images {
     flex-direction: row;
   }
