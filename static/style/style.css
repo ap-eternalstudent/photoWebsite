@@ -254,6 +254,16 @@ a::after {
   vertical-align: bottom;
 }
 
+.selfport {
+  margin: 2vmin;
+}
+.selfport img {
+  display: block;
+  max-width: 30%;
+  margin: auto;
+  border-radius: 50%;
+}
+
 .footer {
   display: flex;
   flex-wrap: nowrap;
