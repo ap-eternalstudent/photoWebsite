@@ -259,7 +259,7 @@ a::after {
 }
 .selfport img {
   display: block;
-  max-width: 30%;
+  max-width: 15%;
   margin: auto;
   border-radius: 50%;
 }
