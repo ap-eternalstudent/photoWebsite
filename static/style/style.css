@@ -301,12 +301,18 @@ a::after {
   body {
     overflow-x: hidden;
   }
+  .site-navigation {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
   .menu {
+    /* overflow-x: hidden; */
+
     position: absolute;
     right: 0px;
     height: 50vh;
     top: 10rem;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(243, 243, 243);
     display: flex;
     flex-direction: column;
     align-items: center;
