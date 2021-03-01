@@ -16,7 +16,6 @@ body {
   max-width: 80%;
   margin: 0 auto;
   font-size: 2rem;
-  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -62,6 +61,7 @@ a::after {
 }
 .super-wrapper {
   background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
 }
 
 .logo {

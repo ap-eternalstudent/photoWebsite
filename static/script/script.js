@@ -3,6 +3,7 @@ const navSlide = () => {
   const nav = document.querySelector(".menu");
   const navLinks = document.querySelectorAll(".menu li");
   const btn = document.querySelectorAll(".btn");
+  const body = document.querySelector(".super-wrapper");
 
   burger.addEventListener("click", () => {
     nav.classList.toggle("menu__active");
@@ -16,6 +17,12 @@ const navSlide = () => {
       }
     });
     burger.classList.toggle("toggle");
+  });
+  body.addEventListener("click", () => {
+    console.log("click");
+    if (burger.classList.containts("toggle")) {
+      burger.classList.toggle("toggle");
+    }
   });
 };
 
