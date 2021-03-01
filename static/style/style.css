@@ -16,13 +16,13 @@ body {
   max-width: 80%;
   margin: 0 auto;
   font-size: 2rem;
+  overflow-x: hidden;
 }
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 10rem;
-  overflow-x: hidden;
 }
 h1 {
   font-size: 5rem;
@@ -62,7 +62,6 @@ a::after {
 }
 .super-wrapper {
   background-color: rgb(255, 255, 255);
-  /* margin: auto; */
 }
 
 .logo {
@@ -302,11 +301,8 @@ a::after {
 
 @media screen and (max-width: 999px) {
   body {
-    overflow-x: hidden;
   }
-  .site-navigation {
-    overflow-x: hidden;
-  }
+
   .menu {
     position: absolute;
     right: 0px;
